@@ -189,11 +189,11 @@ export function RequestFormSection() {
                 <option value="" disabled>
                   Select a budget range
                 </option>
+                <option>Not Sure Yet</option>
                 <option>Under $1,000</option>
                 <option>$1,000–$2,500</option>
                 <option>$2,500–$5,000</option>
-                <option>$5,000+</option>
-                <option>Not Sure Yet</option>
+                <option>Custom Project</option>
               </select>
               <p className="field-help">
                 Every project is different. This simply helps me recommend the right solution.
