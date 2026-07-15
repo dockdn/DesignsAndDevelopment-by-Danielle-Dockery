@@ -149,7 +149,7 @@ export function RequestFormSection() {
                 autoComplete="organization"
               />
             </div>
-            <div className="field">
+            <div className="field full">
               <label htmlFor="service">Service needed</label>
               <select
                 id="service"
@@ -169,7 +169,7 @@ export function RequestFormSection() {
                 Need more than one service? Select &ldquo;Multiple Services&rdquo; and include everything you need below.
               </p>
             </div>
-            <div className="field">
+            <div className="field full">
               <label htmlFor="timeline">Desired timeline</label>
               <input id="timeline" name="timeline" type="text" />
             </div>
