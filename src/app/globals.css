@@ -274,7 +274,7 @@ img {
 }
 
 .nav-cta-mobile {
-  display: none;
+  display: none !important;
 }
 
 .page-back-link-shell {
